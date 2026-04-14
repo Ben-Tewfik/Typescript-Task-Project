@@ -7,7 +7,23 @@
     <title>Typescript Task Project</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <!-- change this later depending on date time -->
+      <h1>Good morning</h1>
+      <p>you have two active tasks remaining for today</p>
+      <section>
+        <form class="form">
+          <input
+            type="text"
+            placeholder="what needs to be done?"
+            class="task"
+          />
+          <button type="submit" class="submit-btn">Add Task</button>
+        </form>
+        <!-- list of tasks -->
+        <ul class="list"></ul>
+      </section>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
